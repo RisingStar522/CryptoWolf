@@ -1,0 +1,175 @@
+body{
+    --tw-bg-opacity: 1;
+    background-color: rgba(17,24,39,var(--tw-bg-opacity)) !important;
+    font-family: Poppins,Arial,Helvetica !important;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.displayNone{
+    display: none;
+}
+.main{
+    width: calc(100vw - 292px) !important;
+    padding: 50px;
+}
+.header{
+    height: 80px;
+}
+.right_content{
+    float: left;
+}
+.left_Bar{
+    width: 292px !important;
+    height: 100vh !important;
+    float: left;
+    overflow-y: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgba(31,41,55,var(--tw-bg-opacity));
+}
+.logo_img{
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.left_Bar::-webkit-scrollbar {
+    display: none;
+}
+.header_background{
+    --tw-bg-opacity: 1;
+    background-color: rgba(31,41,55,var(--tw-bg-opacity));
+}
+ul{
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+ul li{
+    list-style: none;
+}
+.mobile_header{
+    display: none;
+    width: 100vw;
+    height: 55px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(31,41,55,var(--tw-bg-opacity)) !important;
+}
+@media all and (max-width:1056px){
+    .left_Bar{
+        display: none;
+    } 
+    .mobile_header{
+        display: block;
+    }
+    .main{
+        width: 100% !important;
+    }
+}
+@media all and (max-width:991px){
+    .MG_top{
+        margin-top: 4% !important;
+    }
+}
+.w3-teal{
+    float: right;
+    margin-top: -28px;
+}
+.w3-animate-left, .w3-animate-right{
+    margin-top: 27px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(31,41,55,var(--tw-bg-opacity)) !important;
+    width: 292px !important;
+}
+.w3-bar-item {
+    background-color: azure !important;
+    position: fixed;
+    width: 292px !important;
+}
+.w3-animate-left::-webkit-scrollbar {
+    display: none;
+}
+.w3-teals{
+    background-color: blanchedalmond !important;
+    margin-top: -28px;
+}
+.active_a{
+    background-color: #3830a7 !important;
+    border-right: 4px solid #6466ef;
+}
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: 335px;
+  }
+  
+  .tooltip1 .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+  }
+  .tooltips .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: -23%;
+    margin-left: -60px;
+    font-weight: 100;
+    font-size: 12px;
+}
+  
+.tooltips .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+} 
+.tooltips:hover .tooltiptext {
+    visibility: visible;
+}
+.position{
+    position: relative;
+}
+.position button {
+    position: absolute;
+    right: 30px;
+    width: 48px;
+    height: 64px;
+    border: 0px;
+    background-color: rgba(31,41,55,1);
+}
+.game_div{
+    margin-top: 35px !important;
+}
+.position{
+    transition: transform .1s;
+}
+.position:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}

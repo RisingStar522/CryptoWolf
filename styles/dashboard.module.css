@@ -1,0 +1,22 @@
+.text_drop{
+    height: fit-content !important;
+    padding: 0.85rem;
+    border-radius: 0.375rem;
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    background-color: rgba(31,41,55,var(--tw-bg-opacity));
+}
+.warning{
+    width: 68px;
+    height: 64px;
+    float: left;
+    border: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    background-color: rgba(31,41,55,1);
+    border-left: 4px solid rgba(239,68,68,1);
+}
+.warning_text{
+    font-size: 14px;
+}
